@@ -4,7 +4,7 @@
 2. Make sure the keypair is shared with everyone you're collaborating with, and is saved
 3. Create an SSH shortcut to the remote server
     + `ssh-add new_funds_to_votes_aws.pem`
-    + `alias sshwebc=ssh ec2-user@ec2-54-218-168-107.us-west-2.compute.amazonaws.com`
+    + `alias sshwebc=ssh ec2-user@e{{YOUR_IP}}.us-west-2.compute.amazonaws.com`
 4. Test that I can ssh in
 5. Install certbot and docker on the remote server
     + https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html#install_docker
